@@ -194,7 +194,9 @@ h3{
   .img-fluid1{
     float:right;
   }
-
+.dev-card2{
+  float: left;
+}
   
   .sub-card {
     width: 50%;
@@ -206,7 +208,7 @@ h3{
     padding: 5px 15px;
 }
 .sub-card1 {
-  width: 70%;
+  width: 100%;
   margin: auto;
   border: 3px #ffd60a solid;
   border-radius: 15px;
@@ -310,16 +312,23 @@ th {
 }
 
 .column1{
+  
   float:right;
   width:33%;
   padding:10px;
 }
 .p{
-  padding-right: 50%;
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
 }
 img {
   width: 100%;
   height: auto;
+}
+.img-fluid3{
+  width:50%;
+  float:right;
 }
 h3{
   font-family: 'Sansita Swashed', cursive;
@@ -341,6 +350,6 @@ h3{
   }
 }
 
-.para{
-float:left;
+.current{
+  float:right;
 }
