@@ -191,6 +191,9 @@ h3{
     margin-top: 8px;
     vertical-align: middle;
   }
+  .img-fluid1{
+    float:right;
+  }
 
   
   .sub-card {
@@ -313,7 +316,13 @@ th {
 .p{
   padding-right: 50%;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
+h3{
+  font-family: 'Sansita Swashed', cursive;
+}
 /* Clear floats after the columns */
 /*.row:after {
   content: "";
