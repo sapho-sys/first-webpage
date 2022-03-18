@@ -166,6 +166,9 @@ h3{
       float: right;
       display: block;
     }
+    .Sweden{
+      flex-wrap: wrap;
+    }
   }
   
   @media screen and (max-width: 900px) {
