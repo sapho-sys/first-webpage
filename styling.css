@@ -335,6 +335,7 @@ th {
   
   
 }
+
 .p{
   
   margin-left: 0px;
@@ -372,7 +373,7 @@ h3{
 @media screen and (max-width: 900px) {
   .img-fluid2{
     width:100%;
-    float:left;
+    float:right;
   }
   
   .column {
@@ -381,7 +382,7 @@ h3{
   .column1{
     width:100%;
   }
- 
+  
   
 }
 
