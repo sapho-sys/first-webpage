@@ -230,6 +230,7 @@ h3{
 }
   @media (max-width:900px){
     .sub-card{
+      flex-wrap: wrap;
         width:100%;
     }
     .sub-card1{
