@@ -209,7 +209,7 @@ h3{
 }
 
   
-  .sub-card {
+  /*.sub-card {
     width: 50%;
     margin: auto;
     border: 3px #ffd60a solid;
@@ -227,7 +227,7 @@ h3{
   margin-top: 7.5px;
   margin-bottom: 12.5px;
   padding: 5px 15px;
-}
+} */
   @media (max-width:900px){
     .sub-card{
       flex-wrap: wrap;
