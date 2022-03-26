@@ -88,16 +88,34 @@ h3{
     overflow: hidden;
     background-color: #ddd;
     border-radius: 4pt;
+    margin-left: auto;
+    margin-right: auto;
+    width:-50%;
     
     
   }
   
   
   
-  .Intro a.active {
+  .Intro a.activate {
     background-color:#457b9d;
     color: white;
     width:270px;
+    text-align: center;
+    float:left;
+  }
+  .Intro a.active {
+    background-color:#457b9d;
+    color:#000;
+    width:270px;
+    text-align: center;
+  }
+  .sub-card0{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+
   }
   
   .Intro .icon {
@@ -132,9 +150,11 @@ h3{
   .Intro{
     overflow: hidden;
     background-color: #ddd;
+    width:90%;
     
     
   }
+  
   
   .Intro a {
     float: left;
@@ -202,10 +222,13 @@ h3{
   }
   .img-fluid1{
     float:right;
+    height:60%;
+    width: 50%;
   }
   
 .dev-card2{
-  float: left;
+  float: right;
+
 }
 
   
@@ -229,6 +252,13 @@ h3{
   padding: 5px 15px;
 } */
   @media (max-width:900px){
+    .dev-card{
+      float:right;
+    }
+    .para0{
+      
+      width:50%;
+    }
     .sub-card{
       flex-wrap: wrap;
         width:100%;
@@ -251,6 +281,7 @@ h3{
   height: auto;
   width: 95%;
   margin: auto;
+  
 }
 
 .wp-text {
@@ -336,6 +367,25 @@ th {
   
   
 }
+.column0{
+  
+  float:right;
+  width:70%;
+  padding:10px;
+  height:350px;
+  border-radius: 4pt;
+  
+  
+}
+.colum{
+  
+  float:left;
+  width:70%;
+  padding:10px;
+  height:350px;
+  border-radius: 4pt;
+
+}
 
 .p{
   
@@ -352,6 +402,10 @@ img {
   width:100%;
   float:right;
   border-radius: 3pt;
+}
+.img-fluid4{
+  width:50%;
+  height: 40%;
 }
 .img-fluid2 {
   width:120%;
@@ -372,9 +426,26 @@ h3{
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
+ 
+  .img-fluid1{
+    width:150%;
+    float:right;
+
+  
+  }
+  
   .img-fluid2{
     width:100%;
+    float:left;
+  }
+  .p1{
     float:right;
+  }
+  .p2{
+    float:left;
+  }
+  .the-table{
+    margin-left: auto;
   }
   
   .column {
@@ -382,6 +453,10 @@ h3{
   }
   .column1{
     width:100%;
+  }
+  .img-fluid4{
+    width:100%;
+    height: 50%;
   }
   
   
@@ -398,6 +473,10 @@ h3{
   
   
 }
+.para0{
+  float:right;
+  width:48%;
+}
 
 .dev-card3{
   
@@ -410,20 +489,28 @@ h3{
 }
 .column{
   
-  float: left;
-  width: 44%;
+  
+  width: auto;
   
   
 }
 
-.para2{
+.p{
   
   
   float:right;
-  width:50%;
+  width:auto;
   
   
   
+}
+.the-table{
+ 
+  margin-right: auto;
+  
+}
+.dev-card{
+  display: flex;
 }
 
 
