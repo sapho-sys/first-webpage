@@ -110,14 +110,22 @@ h3{
     width:270px;
     text-align: center;
   }
-  .sub-card0{
+  .sub-card14{
     
     margin-left: auto;
     margin-right: auto;
     width:50%;
+    
+    
+    
 
   }
-  
+  .sub-card100{
+    height:10000px;
+  }
+ 
+
+ 
   .Intro .icon {
     display:none;
   }
@@ -252,6 +260,7 @@ h3{
   padding: 5px 15px;
 } */
   @media (max-width:900px){
+    
     .dev-card{
       float:right;
     }
