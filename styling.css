@@ -97,7 +97,7 @@ h3{
   .sub-card0{
     margin-left: auto;
     margin-right: auto;
-    width:50%;
+    width:60%;
   }
   /* .sub-card14{
     margin-left:auto;
@@ -293,8 +293,16 @@ h3{
   padding: 5px 15px;
 } */
   @media (max-width:900px){
-    .table-view{
-      align-content: center;
+    /* .sub-card0{
+      margin-left: auto;
+      width: 50%;
+     margin-right: auto;
+      
+    } */
+    .current{
+      padding: 15px 0;
+      
+      text-align: center;
     }
    
    
@@ -370,7 +378,7 @@ th {
   
   margin: 25px 0;
  
-  width: 150%;
+  width: 130%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   text-decoration: none;
 }
@@ -522,9 +530,9 @@ h3{
   .column1{
     width:100%;
   }
-  .current{
+  /* .current{
     width:100%;
-  }
+  } */
   
   .img-fluid4{
     width:100%;
@@ -532,11 +540,12 @@ h3{
   }
   
   
+  
 }
 
-.current{
+/* .current{
   float:right;
-}
+} */
 
 .para{
   
