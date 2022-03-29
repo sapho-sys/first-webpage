@@ -2,11 +2,25 @@
     box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+  height:100vh;
+}
+
 .container {
-    max-width: 1024px;
+    /* max-width: 1024px;
     margin: 0 auto;
-    /* overflow: auto; */
-    padding: 0 25px;
+    overflow: auto;
+    padding: 0 25px; */
+    left:0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #457b9d;
+    /* min-height: 62px; */
+    border-bottom: 0.1px #ffd60a solid;
+    overflow: hidden;
+
 }
 
 .flex {
@@ -20,11 +34,16 @@
 /*** HEADER ***/
 
 .navbar  {
-
+    top: 0;
+    width: 100%;
+    position: fixed;
     background-color: #457b9d;
-    min-height: 62px;
+    /* min-height: 62px; */
     border-bottom: 0.1px #ffd60a solid;
     overflow: hidden;
+}
+main{
+  margin-top: 30px;
 }
 
 .navbar .flex{
@@ -32,6 +51,9 @@
     align-items: center;
 }
 
+/* .main {
+  margin-top: 100px;
+} */
 
 .brand {
     text-align: center;
@@ -293,6 +315,16 @@ h3{
   padding: 5px 15px;
 } */
   @media (max-width:900px){
+    .navbar{
+      top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #457b9d;
+    
+    border-bottom: 0.1px #ffd60a solid;
+    overflow: hidden;
+
+    }
     .sub-card0{
       
       width: 80%;
@@ -334,7 +366,7 @@ h3{
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   height: auto;
-  width: 95%;
+  width: 150%;
   margin: auto;
   
 }
