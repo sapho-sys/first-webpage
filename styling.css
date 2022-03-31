@@ -215,10 +215,11 @@ h3{
   .Intro{
     overflow: hidden;
     background-color: #ddd;
-    width:90%;
+    width:100%;
     
     
   }
+  
   
   
   .Intro a {
@@ -240,6 +241,13 @@ h3{
     background-color:#457b9d;
     color: white;
     width:350px;
+  }
+
+  .Intro a.activer {
+    background-color:#457b9d;
+    color: white;
+    width:350px;
+    border-radius:3pt;
   }
   
   .Intro .icon {
@@ -318,6 +326,13 @@ h3{
   padding: 5px 15px;
 } */
   @media (max-width:900px){
+    .Intro a.activer {
+     
+      margin-left: auto;
+      margin-right:auto;
+      width:90%;
+    }
+    
     .navbar{
       top: 0;
     width: 100%;
@@ -523,6 +538,9 @@ img {
   float:left;
   border-radius: 3pt;
 }
+/* .img-fluid1{
+  /* float:right; */
+
 
 
 h3{
@@ -639,6 +657,12 @@ h3{
 } */
 .dev-card{
   display: flex;
+}
+.sub-card14{
+  margin-left: auto;
+  margin-right: auto;
+  width:55%;
+  margin-top: 30px;
 }
 
 
